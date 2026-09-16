@@ -1,0 +1,40 @@
+﻿# Виртуальные окружения
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Сторонние вендор-проекты (слишком большие для гита)
+Camera/liveportrait/
+Camera/facefusion/
+Camera/installer-output/
+
+# Модели / веса
+Camera/models/
+Camera/trt_cache_gpen/
+Camera/trt_cache_inswapper*/
+*.onnx
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# Логи, кэш, датасеты, сборки
+**/logs/
+**/__pycache__/
+**/source_cache/
+**/dataset_recordings/
+**/dataset/
+Camera/build/
+Camera/launcher_build/
+Camera/launcher_dist/
+Camera/launcher_spec/
+Voice/.model-downloads/
+
+# На всякий случай IDE/системный мусор
+.idea/
+.vscode/
+Thumbs.db
+
+*.index
