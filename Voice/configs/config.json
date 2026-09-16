@@ -1,0 +1,20 @@
+{
+  "pth_path": "C:/Deep Live Studio/Voice/assets/weights/source_voice.pth",
+  "index_path": "C:/Deep Live Studio/Voice/assets/indices/source_voice_added_IVF1533_Flat_nprobe_1_source_voice_v2.index",
+  "sg_hostapi": "WASAPI",
+  "sg_wasapi_exclusive": false,
+  "sg_input_device": "Микрофон (Logitech G735 Gaming)",
+  "sg_output_device": "Динамики (Logitech G735 Gaming)",
+  "sr_type": "sr_device",
+  "threhold": -60.0,
+  "pitch": -6.0,
+  "formant": 0.0,
+  "index_rate": 0.0,
+  "rms_mix_rate": 1.0,
+  "block_time": 0.5,
+  "crossfade_length": 0.08,
+  "extra_time": 0.5,
+  "I_noise_reduce": true,
+  "O_noise_reduce": true,
+  "f0method": "pm"
+}

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\VoiceChanger-RVC\realtime_gui.py", line 2289, in <module>
+    gui = ReferenceGUI()
+          ^^^^^^^^^^^^^^
+  File "C:\VoiceChanger-RVC\realtime_gui.py", line 83, in __init__
+    self.launcher()
+  File "C:\VoiceChanger-RVC\realtime_gui.py", line 2152, in launcher
+    self._connect_reference_navigation()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ReferenceGUI' object has no attribute '_connect_reference_navigation'
